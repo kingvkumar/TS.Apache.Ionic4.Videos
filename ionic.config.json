@@ -1,0 +1,13 @@
+{
+  "name": "TS.Apache.Ionic4.Videos",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular",
+  "proxies": [
+    {
+      "path": "/api",
+      "proxyUrl": "http://localhost:58562/login/"
+    }
+  ]
+}
